@@ -2,19 +2,18 @@ public class Circle extends Ellipsis {
     // Rayon
     int radius;
 
-    public Circle(Point center, int a, int b) {
-        super(center, a, b);
-    }
-
+    // Constructeurs
     public Circle(Point center, int radius) {
         this.center = center;
         this.radius = radius;
     }
 
+    // Getters
     public int getRadius() {
         return radius;
     }
 
+    // Setters
     public void setRadius(int radius) {
         this.radius = radius;
     }

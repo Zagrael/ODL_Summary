@@ -8,33 +8,35 @@ public class Ellipsis {
     // semi grand-axe selon y
     int b;
 
+    // Constructeurs
+    public Ellipsis(){}
+
     public Ellipsis(Point center, int a, int b) {
         this.center = center;
         this.a = a;
         this.b = b;
     }
 
-    public Ellipsis() {
-    }
-
+    // Getters
     public Point getCenter() {
         return center;
-    }
-
-    public void setCenter(Point center) {
-        this.center = center;
     }
 
     public int getA() {
         return a;
     }
 
-    public void setA(int a) {
-        this.a = a;
-    }
-
     public int getB() {
         return b;
+    }
+
+    // Setters
+    public void setCenter(Point center) {
+        this.center = center;
+    }
+
+    public void setA(int a) {
+        this.a = a;
     }
 
     public void setB(int b) {
