@@ -3,10 +3,10 @@ public class Ellipsis {
     Point center;
 
     // demi grand-axe selon x
-    int a;
+    protected int a;
 
     // semi grand-axe selon y
-    int b;
+    protected int b;
 
     // Constructeurs
     public Ellipsis(){}
