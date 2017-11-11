@@ -14,6 +14,9 @@ public class Ellipsis {
         this.b = b;
     }
 
+    public Ellipsis() {
+    }
+
     public Point getCenter() {
         return center;
     }
