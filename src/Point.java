@@ -8,9 +8,9 @@ public class Point {
         this.y = y;
     }
 
-    public Point(Point p) {
-        this.x = p.getX();
-        this.y = p.getY();
+    public Point(Point P) {
+        this.x = P.getX();
+        this.y = P.getY();
     }
 
     // Getters

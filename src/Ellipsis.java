@@ -11,8 +11,8 @@ public class Ellipsis {
     // Constructeurs
     public Ellipsis(){}
 
-    public Ellipsis(Point center, int a, int b) {
-        this.center = center;
+    public Ellipsis(Point C, int a, int b) {
+        this.center = C;
         this.a = a;
         this.b = b;
     }

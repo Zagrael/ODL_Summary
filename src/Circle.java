@@ -3,8 +3,8 @@ public class Circle extends Ellipsis {
     int radius;
 
     // Constructeurs
-    public Circle(Point center, int radius) {
-        this.center = center;
+    public Circle(Point C, int radius) {
+        this.center = C;
         this.radius = radius;
     }
 
