@@ -42,4 +42,13 @@ public class Ellipsis {
     public void setB(int b) {
         this.b = b;
     }
+
+    // Fonctions
+    public double perimeter() {
+        return 2 * Math.PI * Math.sqrt((a * a + b * b) / 2);
+    }
+
+    public double area() {
+        return Math.PI * a * b;
+    }
 }
